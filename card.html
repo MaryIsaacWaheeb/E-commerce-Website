@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<script src="index.js"></script>
+
+<body onload="getcart()">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay ></div>
+
+      <div class="header-search" style="color: #a78295;" >
+        <input type="search" name="search" placeholder="Search Product..." class="input-field" style="color: #a78295;" value="searchvalue">
+
+        <button class="search-btn" aria-label="Search" style="color: #a78295;" onclick="searchbutt()">
+          <ion-icon name="search-outline" style="color: #a78295;"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo" >
+        <img src="logo2.png" alt="Casmart logo" width="70px">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <a href="sign in.html"><ion-icon name="person-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Sign in</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true" style="color: #a78295;"></ion-icon>
+
+          <p class="header-action-label" style="color: #a78295;">Search</p>
+        </button>
+
+        <button class="header-action-btn" >
+          <a href="card.html"><ion-icon name="cart-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Card</p>
+
+        </button>
+
+        <button class="header-action-btn">
+          <a href="wish.html"><ion-icon name="heart-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Wishlisht</p>
+
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar style="color: #3f2e3e; background-color: #efe1d1">
+
+        <div class="navbar-top">
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline" style="color: #a78295;"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="landing2.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>    
+    
+
+
+  <section class="hero" id="home" style="background-image: url('60.jpg')">
+    <div class="container">
+
+      <div class="hero-content">
+
+        <p class="hero-subtitle" style="color: #a78295;">Makeup</p>
+
+        <h2 class="h1 hero-title" style="color: #a78295;">Your shopping</h2>
+
+        <button class="btn btn-primary" style="color: #a78295;" >Shop Now</button>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+<br>
+
+<div class="main_page">
+<div id="parent" class="par" ></div>
+</div>
+
+<br>
+
+ <!-- <footer class="footer" style="color:#3f2e3e;" >
+
+    <div class="footer-top" style="background-color: #efe1d1; color:#efe1d1;">
+      <div class="container">
+
+        <div class="footer-brand">
+
+      
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link" style="color: #3f2e3e;">
+                <ion-icon name="logo-facebook" style="color: #a78295;"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment Type</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Awards Winning</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">World Media Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Agent</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" style="color: #3f2e3e;">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Category</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush Cream</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lipstick</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Stick Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Powder Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush Highlighter</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ Information</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Order Tranking</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">List of Shops</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">Downloud our Apps</p>
+
+          <img src="6.png" alt="Online payment logos" class="payment-img" width="70px">
+          <img src="7.jpg" alt="Online payment logos" class="payment-img" width="70px">
+        </div>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="2.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="3.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="4.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="5.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="1-2.jpg" alt="Online payment logos" class="payment-img" width="30px">
+        </div>
+
+        
+
+      </div>
+    </div>
+
+  </footer>  -->
+
+    
+</body>
+
+<script src="card.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

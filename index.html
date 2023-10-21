@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+</head>
+<body>
+    
+
+    
+    <!-- navbar-->
+   
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay ></div>
+
+      <div class="header-search" style="color: #a78295;" >
+        <input type="search" name="search" placeholder="Search Product..." class="input-field" style="color: #a78295;" value="search product">
+
+        <button class="search-btn" aria-label="Search" style="color: #a78295;" onclick="searchbutt()">
+          <ion-icon name="search-outline" style="color: #a78295;"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo" >
+        <img src="logo2.png" alt="Casmart logo" width="70px">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <a href="sign in.html"><ion-icon name="person-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Sign in</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true" style="color: #a78295;"></ion-icon>
+
+          <p class="header-action-label" style="color: #a78295;">Search</p>
+        </button>
+
+        <button class="header-action-btn" >
+          <a href="card.html"><ion-icon name="cart-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Card</p>
+
+        </button>
+
+        <button class="header-action-btn">
+          <a href="wish.html"><ion-icon name="heart-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Wishlisht</p>
+
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar style="color: #3f2e3e; background-color: #efe1d1">
+
+        <div class="navbar-top">
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline" style="color: #a78295;"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="landing2.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+    
+ 
+ 
+      
+
+      <section class="hero" id="home" style="background-image: url('60.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle" style="color: #a78295;">Makeup</p>
+
+            <h2 class="h1 hero-title" style="color: #a78295;">Uniqe Brands</h2>
+
+            <button class="btn btn-primary" style="color: #a78295;" >Shop Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+<br>
+
+
+
+<div class="main_page">
+
+  <div class="filtrition">
+    
+    
+      <h1>Shop by</h1>
+    
+      <div class="firstfilter">
+    <h4>Categorey</h4><br>
+  <div class="checkbox-container">
+    <label for="checkbox">NYX Rouge Cream Blush</label>
+    <input type="checkbox" id="checkbox" onclick="nameshow('NYX Rouge Cream Blush')">
+      <br>
+      <label for="checkbox">Milani Rose Powder Blush</label>
+      <input type="checkbox" id="checkbox" onclick="nameshow('Milani Rose Powder Blush')">
+        <br>
+        <label for="checkbox">Glow & Mood Boosting Blush</label>
+        <input type="checkbox" id="checkbox" onclick="nameshow('Glow & Mood Boosting Blush')">
+          <br>
+          <label for="checkbox">CoverGirl Cheekers Blush</label>
+          <input type="checkbox" id="checkbox" onclick="nameshow('CoverGirl Cheekers Blush')">
+            <br>
+
+          <label for="checkbox">Sante Rouge</label>
+          <input type="checkbox" id="checkbox" onclick="nameshow('Sante Rouge')">
+            <br>
+
+          <label for="checkbox">Baked Blush</label>
+          <input type="checkbox" id="checkbox" onclick="nameshow('Baked Blush')">
+            <br>
+
+            <label for="checkbox">Maybelline Hi-Light Blush</label>
+          <input type="checkbox" id="checkbox" onclick="nameshow('Maybelline Hi-Light Blush')">
+            <br>
+
+            <label for="checkbox">Glowing Nude Blush</label>
+          <input type="checkbox" id="checkbox" onclick="nameshow('Glowing Nude Blush')">
+            <br>
+</div><br><br><br>
+
+
+
+    <h4>Price</h4><br>
+    <div class="slidecontainer" style="color: #3f2e3e;">
+      <div class="pricebutt">
+          <button style="color: #3f2e3e;">6.0 £</button><br>
+          <button style="color: #3f2e3e;">40.0 £</button><br>
+          <button style="color: #3f2e3e;" onclick="brandshow(6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0)">Search</button>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+    </div><br><br><br>
+
+    
+
+    <h4>Brand</h4><br>
+    <div class="checkbox-container">
+      <label for="checkbox">nyx</label>
+      <input type="checkbox" id="checkbox" onclick="brandshow('nyx')">
+      <br>
+      <label for="checkbox">dior</label>
+      <input type="checkbox" id="checkbox" onclick="brandshow('dior')">
+      <br>
+      <label for="checkbox">clinique</label>
+      <input type="checkbox" id="checkbox" onclick="brandshow('clinique')">
+      <br>
+      <label for="checkbox">sante</label>
+      <input type="checkbox" id="checkbox" onclick="brandshow('sante')">
+      <br>
+      <label for="checkbox">smashbox</label>
+      <input type="checkbox" id="checkbox" onclick="brandshow('smashbox')">
+      <br>
+      <label for="checkbox">maybelline</label>
+      <input type="checkbox" id="checkbox" onclick="brandshow('maybelline')">
+      
+      <br>
+
+
+  </div> 
+
+
+
+
+
+
+
+
+
+
+  </div><br>
+
+
+
+
+<br>
+
+
+  
+      <h1>Best sellers</h1>
+      <div class="secondfilter">
+      <div class="bestsellers">
+          <img src="https://d3t32hsnjxo7q6.cloudfront.net/i/b5dc625e10b6324d1d74a31641f42fa3_ra,w158,h184_pa,w158,h184.jpeg" alt="Avatar" style="width: 30%">
+          <div class="container">
+              
+              <p>Sante Rouge</p>
+              <p class="price">23.49 £</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <!-- <div class="add">
+              <p><button><i class="fa fa-heart" aria-hidden="true"></i></button></p>
+              <button>Add to Card</button>
+              <p><button><i class="fa fa-share" aria-hidden="true"></i></button></p>
+              </div> -->
+          </div> 
+    </div>
+
+
+  
+    <br>
+<div class="bestsellers">
+  <img src="https://www.clinique.com/media/export/cms/products/181x209/clq_618J_181x209.png" alt="Avatar" style="width: 30%">
+  <div class="container">
+      
+      <p>Soft-Pressed Powder Blusher</p>
+      <p class="price">23.0 £</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <!-- <div class="add">
+      <p><button><i class="fa fa-heart" aria-hidden="true"></i></button></p>
+      <button>Add to Card</button>
+      <p><button><i class="fa fa-share" aria-hidden="true"></i></button></p>
+      </div> -->
+  </div> 
+</div>
+
+<br>
+<div class="bestsellers">
+  <img src="https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwfdfb0cd6/ProductImages/Face/Baked_Blush/800897824181_bakedblush_fullonfemme_main.jpg?sw=390&sh=390&sm=fit" alt="Avatar" style="width: 30%">
+  <div class="container">
+      
+      <p>Baked Blush</p>
+      <p class="price">7.0 £</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <!-- <div class="add">
+      <p><button><i class="fa fa-heart" aria-hidden="true"></i></button></p>
+      <button>Add to Card</button>
+      <p><button><i class="fa fa-share" aria-hidden="true"></i></button></p>
+      </div> -->
+  </div> 
+</div>
+
+
+   </div>
+</div> 
+
+<div id="parent" class="par" ></div>
+
+</div>
+
+
+
+  <!-- FOOTER -->
+    
+ 
+<br>
+  <footer class="footer" style="color:#3f2e3e;" >
+
+    <div class="footer-top" style="background-color: #efe1d1; color:#efe1d1;">
+      <div class="container">
+
+        <div class="footer-brand">
+
+      
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link" style="color: #3f2e3e;">
+                <ion-icon name="logo-facebook" style="color: #a78295;"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment Type</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Awards Winning</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">World Media Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Agent</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" style="color: #3f2e3e;">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Category</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush Cream</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lipstick</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Stick Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Powder Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush Highlighter</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ Information</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Order Tranking</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">List of Shops</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">Downloud our Apps</p>
+
+          <img src="6.png" alt="Online payment logos" class="payment-img" width="70px">
+          <img src="7.jpg" alt="Online payment logos" class="payment-img" width="70px">
+        </div>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="2.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="3.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="4.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="5.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="1-2.jpg" alt="Online payment logos" class="payment-img" width="30px">
+        </div>
+
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+</body>
+<script src="index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>

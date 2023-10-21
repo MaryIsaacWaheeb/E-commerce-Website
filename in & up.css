@@ -1,0 +1,277 @@
+/* .form{
+    background :#EFE1D1;
+    border: 7px;
+    text-align: center;
+    width: 300px;
+    margin: 5% auto 0;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.form img{
+  margin-top: -10px;
+  width: 80px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.form h1{
+  color: #A78295;
+  margin-top: -10px;
+  margin-bottom: 10px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 0.5px solid #A78295;
+  outline: none;
+}
+
+h3 {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: left;
+ color: #191717;
+ font-size: small;
+}
+
+p{
+  color: #A78295;
+}
+
+button{
+  color: #A78295;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.button2{
+background-color: #acb4c0;
+color: #e9edf8;
+border: #657a97;
+}
+
+.or{
+  background:#fff ;
+  width: 30px;
+  margin: -15px auto 10px;
+}
+
+hr{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.button3 {
+  background-color:#99627A;
+  color: #e9edf8;
+  border: #c0cad8;
+  }
+
+  .button3 a:link{
+    color: #e9edf8;
+    text-decoration: none;
+  }
+  
+  .button3 a:visited{
+    color: #C88EA7;
+    text-decoration: none;
+  }
+  
+  .button3 a:hover{
+    color: #C88EA7;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .button3 a:active{
+    color:#C88EA7;
+    text-decoration: none;
+  }
+
+ 
+
+ 
+  p a:link{
+    color: #657a97;
+    text-decoration: none;
+  }
+  
+  p a:visited{
+    color: #657a97;
+    text-decoration: none;
+  }
+  
+  p a:hover{
+    color: #c9cfdf;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  p a:active{
+    color: #5c71ab;
+    text-decoration: none;
+  } */
+
+
+  .form{
+    background :#EFE1D1;
+    border: 7px;
+    text-align: center;
+    width: 300px;
+    margin: 5% auto 0;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.form img{
+  margin-top: -10px;
+  width: 80px;
+  cursor: pointer;
+}
+
+
+
+.heading{
+  text-align: center;
+}
+
+.form h1{
+  color: #A78295;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 0.5px solid #A78295;
+  outline: none;
+}
+
+h3 {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: left;
+ color: #a78295;
+ font-size: small;
+}
+
+p{
+  color: #A78295;
+  width: 100%;
+
+}
+
+p input{
+  color: #A78295;
+  width: 10%;
+}
+
+input{
+  outline: none;
+  color: #a78295;
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: #a78295;
+}
+
+.form button{
+  outline: none;
+  color: #A78295;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: #a78295;
+}
+
+.button2{
+background-color: #a78295;
+color: #a78295;
+border: #a78295;
+}
+
+.or{
+  background:#EFE1D1 ;
+  width: 30px;
+  margin: -15px auto 10px;
+}
+
+hr{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.button3 {
+  background-color:#a78295;
+  color: #a78295;
+  border: #a78295;
+  
+  }
+
+  .button3 a:link{
+    color: #a78295;
+    text-decoration: none;
+  }
+  
+  .button3 a:visited{
+    color: #efe1d1;
+    text-decoration: none;
+  }
+  
+  .button3 a:hover{
+    color: #a78295;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .button3 a:active{
+    color:#efe1d1;
+    text-decoration: none;
+  }
+
+ .form label{
+  color: #a78295;
+  font-style: oblique;
+ }
+
+ 
+  p a:link{
+    color: #657a97;
+    text-decoration: none;
+  }
+  
+  p a:visited{
+    color: #657a97;
+    text-decoration: none;
+  }
+  
+  p a:hover{
+    color: #c9cfdf;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  p a:active{
+    color: #5c71ab;
+    text-decoration: none;
+  }

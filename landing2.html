@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+</head>
+<body onload="changeSrc()">
+    
+
+    
+    <!-- navbar-->
+   
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay ></div>
+
+      <div class="header-search" style="color: #a78295;" >
+        <input type="search" name="search" placeholder="Search Product..." class="input-field" style="color: #a78295;" value="searchvalue">
+
+        <button class="search-btn" aria-label="Search" style="color: #a78295;" onclick="searchbutt()">
+          <ion-icon name="search-outline" style="color: #a78295;"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo" >
+        <img src="logo2.png" alt="Casmart logo" width="70px">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" >
+          <ion-icon name="person-outline" aria-hidden="true" style="color: #a78295;"></ion-icon>
+
+          <p class="header-action-label" style="color: #a78295;">Sign in</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true" style="color: #a78295;"></ion-icon>
+
+          <p class="header-action-label" style="color: #a78295;">Search</p>
+        </button>
+
+        <button class="header-action-btn" >
+          <a href="card.html"><ion-icon name="cart-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Card</p>
+
+        </button>
+
+        <button class="header-action-btn">
+          <a href="wish.html"><ion-icon name="heart-outline" aria-hidden="true" style="color: #a78295;"></ion-icon></a>
+
+          <p class="header-action-label" style="color: #a78295;">Wishlisht</p>
+
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar style="color: #3f2e3e; background-color: #efe1d1">
+
+        <div class="navbar-top">
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline" style="color: #a78295;"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+      <section class="hero" id="home">
+        <div class="container">
+          <img id="image" src="90.jpg" width="100%" height="500PX" style=" background-size:cover;"
+         style="  background:cover" >
+          <button id="regester" onclick="changeSrc()"></button>
+          <div class="hero-content">
+
+            <p class="hero-subtitle" style="color: #a78295;"></p>
+
+            <h6 class="h1 hero-title" style="color: #a78295; font-size: 70px;" >These offers are offered every beginning of the month</h6>
+
+            <button class="btn btn-primary" style="color: #a78295;" >Shop Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+<br>
+
+
+
+<section class="section category">
+    <div class="container">
+
+      <ul class="category-list">
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="https://cdn.trendhunterstatic.com/thumbs/489/superpowder-blush.jpeg?auto=webp" alt="Sunglass & eye" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Blash Powder</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="https://c-co.niceshops.com/upload/image/product/large/default/nui-cosmetics-cream-blush-for-cheek-eyes-lips-298213-en.jpg" alt="Active & outdoor" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Blash Cream</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="https://balderbcompany.weebly.com/uploads/5/1/6/5/51659549/s530159525169260210_p3_i3_w948.jpeg" alt="Winter wear" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Libstick</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="data:image/jpeg;base64,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" alt="Exclusive footwear" loading="lazy" width="510"
+              height="600" class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Highlighter</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="https://static.beautytocare.com/media/catalog/product/cache/global/image/1300x1300/85e4522595efc69f496374d01ef2bf13/r/i/rimmel-london-glam-eyes-liquid-eyeliner-pitch-black-3-5ml.jpg" alt="Jewelry" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Eyelinear</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="https://nudebynature.ca/cdn/shop/products/luminous-sheer-liquid-foundation-640x640_720x720.jpg?v=1517100358" alt="Sports cap" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Foundation</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+    
+ 
+<br>
+  <footer class="footer" style="color:#3f2e3e;" >
+
+    <div class="footer-top" style="background-color: #efe1d1; color:#efe1d1;">
+      <div class="container">
+
+        <div class="footer-brand">
+
+      
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link" style="color: #3f2e3e;">
+                <ion-icon name="logo-facebook" style="color: #a78295;"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment Type</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Awards Winning</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">World Media Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Agent</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" style="color: #3f2e3e;">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Category</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush Cream</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lipstick</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Stick Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Powder Blush</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blush Highlighter</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title" style="color: #3f2e3e;">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ Information</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Order Tranking</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">List of Shops</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">Downloud our Apps</p>
+
+          <img src="6.png" alt="Online payment logos" class="payment-img" width="70px">
+          <img src="7.jpg" alt="Online payment logos" class="payment-img" width="70px">
+        </div>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="2.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="3.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="4.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="5.jpg" alt="Online payment logos" class="payment-img" width="30px">
+          <img src="1-2.jpg" alt="Online payment logos" class="payment-img" width="30px">
+        </div>
+
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+</body>
+<script src="landing2.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
